@@ -2,8 +2,6 @@ const { App } = require('@slack/bolt');
 const axios = require('axios');
 require('dotenv').config();
 
-// @channel Tehehe hope this hasn’t actually been spamming you guys. Do you like my joke bot?
-
 const app = new App({
   token: process.env.TOKEN,
   signingSecret: process.env.SIGNING_SECRET,
